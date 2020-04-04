@@ -43,3 +43,7 @@ This will create a build folder containing your static build files along with th
     c. Initialize your firebase project, **firebase init**.
 
     d. Finally deploy the application using command **firebase deploy**.
+    
+  3. You can get your hosted URL from your project hosting dashboard in firebase console.
+  
+  Check my calculator - https://my-calculator-using-redux.firebaseapp.com/
