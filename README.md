@@ -35,6 +35,7 @@ Open [http://localhost:3005](http://localhost:3005) to view it in the browser.
 This will create a build folder containing your static build files along with the entry point file of your application i.e.     index.html.
 
 2. Go to the firebase hosting steps and follow the instructions as below by running it in application's root directory,
+
  a. Install firebase commandline tools with command **npm install -g firebase-tools**.
  
  b. Login to firebase using your google account, **firebase login**.
