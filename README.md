@@ -36,6 +36,9 @@ This will create a build folder containing your static build files along with th
 
 2. Go to the firebase hosting steps and follow the instructions as below by running it in application's root directory,
  a. Install firebase commandline tools with command **npm install -g firebase-tools**.
+ 
  b. Login to firebase using your google account, **firebase login**.
+ 
  c. Initialize your firebase project, **firebase init**.
+ 
  d. Finally deploy the application using command **firebase deploy**.
