@@ -9,18 +9,18 @@ import * as actions from "../store/actions/index";
 
 import PropTypes from "prop-types";
 
-const styles = theme => ({
+const styles = (theme) => ({
   root: {
     margin: "auto",
     float: "center",
     marginTop: "8%",
     display: "flex",
     flexWrap: "no-wrap",
-    marginLeft: "40%"
+    marginLeft: "40%",
   },
   cardContent: {
-    padding: "30px"
-  }
+    padding: "30px",
+  },
 });
 
 class CalculatorBuilder extends Component {
@@ -48,24 +48,24 @@ class CalculatorBuilder extends Component {
 }
 
 CalculatorBuilder.propTupes = {
-  classes: PropTypes.object.isRequired
+  classes: PropTypes.object.isRequired,
 };
 
 //if you want to access anything from redux state then add it to props
-const mapStateToProps = state => {
+const mapStateToProps = (state) => {
   return {
     ques: state.question,
-    res: state.result
+    res: state.result,
   };
 };
 
 //mapping the actions to redux props
-const mapDispatchToProps = dispatch => {
+const mapDispatchToProps = (dispatch) => {
   return {
     onClearResult: () => dispatch(actions.clearResult()),
     onDeleteQuestion: () => dispatch(actions.deleteQuestion()),
     onCheckResult: () => dispatch(actions.checkResult()),
-    onUpdateQuestion: val => dispatch(actions.updateQuestion(val))
+    onUpdateQuestion: (val) => dispatch(actions.updateQuestion(val)),
   };
 };
 
