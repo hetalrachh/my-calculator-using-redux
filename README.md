@@ -46,4 +46,4 @@ This will create a build folder containing your static build files along with th
     
   3. You can get your hosted URL from your project hosting dashboard in firebase console.
   
-  Check my calculator - https://my-calculator-using-redux.firebaseapp.com/
+     Check my calculator - https://my-calculator-using-redux.firebaseapp.com/
